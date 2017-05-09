@@ -3,10 +3,13 @@ package com.example;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
-public class DisplayMessageActivity extends AppCompatActivity {
+import com.example.fragments.MainFragment;
 
+public class DisplayMessageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,5 +19,10 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.textView2);
         textView.setText(message);
+    }
+
+    public void basicFragment(View view){
+        Intent intent = new Intent(this, MainFragment.class);
+        startActivity(intent);
     }
 }
