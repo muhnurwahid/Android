@@ -30,6 +30,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DisplayMessageActivity" />
         </activity>
+        <activity
+            android:name=".savingdata.Calc"
+            android:parentActivityName=".DisplayMessageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayMessageActivity" />
+        </activity>
     </application>
 
 </manifest>

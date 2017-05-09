@@ -3,4 +3,6 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="basic_fragments">Basic Fragment</string>
+    <string name="preference_file_key">com.example.savingdata.EXAMPLE</string>
+    <string name="go_cal">Go CALL</string>
 </resources>
