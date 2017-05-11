@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.fragments.MainFragment;
+import com.example.interactingotherapps.First;
 import com.example.savingdata.Calc;
 
 public class DisplayMessageActivity extends AppCompatActivity {
@@ -43,6 +44,11 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
     public void goCal(View view){
         Intent intent = new Intent(this,Calc.class);
+        startActivity(intent);
+    }
+
+    public void goFirstDial(View view){
+        Intent intent = new Intent(this,First.class);
         startActivity(intent);
     }
 }

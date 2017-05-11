@@ -37,6 +37,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DisplayMessageActivity" />
         </activity>
+        <activity android:name=".interactingotherapps.First"></activity>
     </application>
 
 </manifest>
